@@ -1,0 +1,93 @@
+body{
+background:rgba(204, 1, 103, 0.788)
+}
+#f{
+    background:grey;
+    border-radius: 15px 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width:50%;
+}
+p{
+    color: red;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+span{
+    letter-spacing: 1px;
+}
+#mobilenet{
+    letter-spacing: 2px;
+}
+.bottom{
+    color: rgb(255, 238, 0);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+.img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+b{
+    color: rgb(0, 9, 128);
+}
+.first,.second{
+    background-color: white;
+    border-radius: 10px;
+    line-height: 2;
+}
+.test_image_and_result1,.test_image_and_result2,.test_image_and_result3,.test_image_and_result4,.test_image_and_result5,.test_image_and_result6,.test_image_and_result7,.test_image_and_result8,.test_image_and_result9{
+    margin-top: 15px;
+    background-color: rgb(16, 247, 177);
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 1px 1px 25px grey;
+    width:85%;
+    animation-name: test;
+    animation-duration:2s;
+   animation-iteration-count: infinite;
+}
+.white1,.white2,.white3,.white4,.white5,.white6,.white7,.white8,.white9{
+    color: white;
+}
+span{
+    color: red;
+}
+.google_lens{
+    color: black;
+}
+h4{
+    color: white;
+    font-weight: bold;
+}
+h5 span{
+    font-weight: bold;
+}
+.bottom1{
+    font-weight: bold;
+    font-size: 15px;
+    width: 50%;
+}
+#t{
+    position: relative;
+    position: absolute;
+    bottom:-3150px;
+  
+    font-size: 18px;
+}
+
+   
+    
+    @keyframes test{
+        from{
+            box-shadow:1px 1px 40px rgb(10, 10, 10);
+        }
+        to{
+            box-shadow:1px 1px 40px rgb(250, 251, 252);
+        }
+    }
